@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: l+5MD0yGdxeuIjaISKMKELYXnRecjJjFMo0l42yzoGMIF/mZ9Wi+6Ee13Aost3J8Z/j0VADGPGO/eWfTOiB8NsqarTLQCGnRD2C220If5RRw+5WE3R3CS+V0fjjjgqbHHzgqT7pUoUu6c7EjOT8kkuXEA6MsOIU2byV24SA1VcEwz5NnNV4gD2iZxaktHIYqhTl27vRhS1WlXAeMQyHWtBbWJnn5AeSvkPwbBvFfkHI2HB8ZNVZFbmphoCNj1IPm4SJksN3Y0ngWV0mXXbLpD5NzugA7qeL8Iyt/4oawomOuI2/Gxsz9CmFF/uEnEvhnHNzl9z2cw66f7WgIIJfTmnME95jUIIck2emBLxQV0FZCcYV1Qiut6vTSGmyFoyLMbp2sMm2vjUW+WM4V+5BYU3NtfTwlUUyqv+6oyLf9/Mu7OawvfHiQdywiD+wNbY+uo/ADDRGi/IG6+WyN8i2/535QMOSQHczN1cYIgZPa13mSU0oNq/L5nGmJz75P9quppgAwbAvvtR9IE1gOOQDrT480glv35fhjZkEt1LojLMQKpiLVJN6fcAiafynWuiCX5wFwqQsp+UQ6vMgWAcIPuMlsfnwFcskM3+4REQ2KI5uwcUl8CubaZWTXzFWblscaTK3l7BFsfk7XTSsHe5g5HjLdOdfIfxUsX2X87OxegPY=
+  app: vast-earth-65834
+  on:
+    repo: jes-a/blog-api
